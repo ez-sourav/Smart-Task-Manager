@@ -3,6 +3,7 @@ import Task from "../models/Task.js";
 // Create Task
 export const createTask = async (req, res) => {
   try {
+    console.log("VERSION 3 - WITH PRIORITY FIX");
     const { title, description, status, priority } = req.body;
 
     if (!title) {

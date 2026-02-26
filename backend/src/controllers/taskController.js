@@ -3,7 +3,7 @@ import Task from "../models/Task.js";
 // Create Task
 export const createTask = async (req, res) => {
   try {
-    const { title, description, status } = req.body;
+    const { title, description, status, priority } = req.body;
 
     if (!title) {
       return res.status(400).json({
@@ -16,6 +16,7 @@ export const createTask = async (req, res) => {
       title,
       description,
       status,
+      priority,
       user: req.user._id,
     });
 

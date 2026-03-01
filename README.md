@@ -23,7 +23,7 @@ The system is built using a modular full-stack architecture and follows clean co
 
 You can download the latest Android build below:
 
-[![Download APK](https://img.shields.io/badge/Download-Android_APK-green?style=for-the-badge&logo=android)](https://github.com/ez-sourav/Smart-Task-Manager/releases/latest)
+[![Download APK](https://img.shields.io/badge/Download-Android_APK-green?style=for-the-badge&logo=android)](https://github.com/ez-sourav/Smart-Task-Manager/releases/download/v1.0.0/application-7c621a3d-6f47-4353-8d6d-1a87ae4a7bf6.apk)
 
 Install the APK on your Android device to test the application.
 
